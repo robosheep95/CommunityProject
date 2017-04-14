@@ -26,6 +26,8 @@ p{
 	text-align: left;
 	margin:0px;
 }
+a{color: #FFFFFF;}
+a:visited{color: #cc9900}
 /*--------------------------------------------------------------------*/
 #title{
 	/*background-image: ;*/
@@ -59,7 +61,6 @@ p{
 	border-color: #FFFFFF;
 	border-radius: 20px;
 	background-color: #000033;
-	overflow: hidden;
 	flex-grow: 1;
 }
 /*--------------------------------------------------------------------*/
@@ -70,7 +71,7 @@ p{
 	border-radius: 20px;
 	background-color: #000033;
 	flex-grow: 4;
-	padding:10px
+	padding:10px;
 }
 #content h1{
 	text-align: center;
@@ -90,19 +91,16 @@ p{
 	font-size: 24px;
 	text-align: left;
 }
-.smallColumn{
-	width: 100px;
-	vertical-align: middle;
-}
+
 /*--------------------------------------------------------------------*/
 #rightBar{
-	margin-top: 0;
 	border-style: ridge;
 	border-color: #FFFFFF;
 	border-radius: 20px;
 	background-color: #000033;
-	overflow: hidden;
 	flex-grow: 1;
+	padding: 5px;
+	max-width:40%
 }
 /*--------------------------------------------------------------------*/
 .nav{
@@ -111,6 +109,7 @@ p{
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: bold;
 	text-align: left;
+	display: inline;
 }
 .nav ul{padding:0px;}
 .nav li{
@@ -120,10 +119,26 @@ p{
 .nav a{text-decoration: none;}
 .nav a:hover{color:#cc9900}
 /*--------------------------------------------------------------------*/
+.smallColumn{
+	width: 30%;
+	vertical-align: middle;
+}
+.smallColumn img{
+	max-width: 100%;
+	max-height: 100%;
+	float: right;
+}
+/*--------------------------------------------------------------------*/
 #footer p{
 	text-align:center;
+	padding-bottom:10px;
 }
 #footer{
+	margin: 10px;
 	text-align:center;
+}
+#footer img{
+	border-color: #FFFFFF;
+	border-radius: 20px;
 }
 /*--------------------------------------------------------------------*/
