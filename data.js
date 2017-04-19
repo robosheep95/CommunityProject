@@ -8,7 +8,8 @@ company = [{
 	addressState: "IA",
 	addressZip: "50140",
 	phone:"(641) 784-3494",
-	website: "http://alt.graceland.edu/~tds2"
+	website: "http://alt.graceland.edu/~tds2",
+	type: "Restaurant",
 },
 {	
 	title: "Pizza Shack",
@@ -20,5 +21,19 @@ company = [{
 	addressState: "IA",
 	addressZip: "50140",
 	phone:"(641) 784-3396",
-	website: ""
+	website: "",
+	type: "Restaurant",
+},
+{
+	title: "Moe's Service Station",
+	image:"",
+	description: "Auto Repair Shop",
+	addressStreet: "113 E Main Street",
+	addressPOBox: "",
+	addressCity: "Lamoni",
+	addressState: "IA",
+	addressZip: "50140",
+	phone:"(641) 555-1234",
+	website: "",
+	type: "Service",
 }]
